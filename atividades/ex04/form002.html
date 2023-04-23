@@ -10,12 +10,12 @@
     <h1>Formulário 02</h1>
     <form action="cadastro.php" method="POST">
         <p>
-            <label for="iusuário">Usuário: </label> <input type="text" name="usuário" id="iusuário">
+            <label for="iusuário">Usuário: </label> <input type="text" name="usuário" id="iusuário" required minlength="5" maxlength="15" size="20" placeholder="Nome do usuário" autocomplete="username">
         </p>
 
         <p>
             <label for="isen">Senha: </label>
-            <input type="password" name="sen" id="isen">
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="16" size="20" placeholder="Digite sua senha">
         </p>
 
         <p>
