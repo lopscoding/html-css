@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Estilos para telas */
+
+h1, h2 {
+    text-align: center;
+    color: aliceblue;
+    background-color: #000000;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+body {
+    background-color: #000000;
+}
+
+header, main {
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 20px;
+}
+
