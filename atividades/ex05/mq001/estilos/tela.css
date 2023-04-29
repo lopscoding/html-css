@@ -2,21 +2,38 @@
 
 /* Estilos para telas */
 
-h1, h2 {
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
     text-align: center;
-    color: aliceblue;
-    background-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #bbbbbb;
     border-radius: 4px;
-    padding: 5px;
 }
 
 body {
     background-color: #000000;
+    padding: 10px;
 }
 
-header, main {
+main {
     background-color: aliceblue;
     border-radius: 4px;
-    padding: 20px;
+    padding: 10px;
+}
+ 
+menu ul{
+    list-style-type: none;
+    background-color: #949494;
 }
 
+menu li {
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
