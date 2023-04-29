@@ -1,2 +1,11 @@
 @charset "UTF-8";
+
  /* Aparelho deitado */
+
+ body {
+    background-color: rgb(190, 22, 22);
+ }
+
+ #pe {
+    display: none;
+}

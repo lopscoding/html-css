@@ -1,2 +1,11 @@
 @charset "UTF-8";
+
 /* Aparelho em pé */
+
+body {
+    background-color: rgb(35, 121, 18);
+}
+
+#deit {
+    display: none;
+}
